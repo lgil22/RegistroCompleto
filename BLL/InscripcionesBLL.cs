@@ -2,14 +2,12 @@
 using RegistroP.Entidades;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using RegistroP.DAL.Scripts;
-using EntityState = Microsoft.EntityFrameworkCore.EntityState;
 
 namespace RegistroP.BLL
 {

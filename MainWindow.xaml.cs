@@ -35,10 +35,18 @@ namespace RegistroP
             // RegistroPersona(new Page.rPersonas());
         }
 
+   
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
         {
             cPersonas cpersonas = new cPersonas();
             cpersonas.Show();
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            rInscripciones rinscripciones = new rInscripciones();
+            rinscripciones.Show();
+
         }
     }
 }

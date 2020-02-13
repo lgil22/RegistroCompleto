@@ -7,8 +7,13 @@
         mc:Ignorable="d"
         Title="Menu Principal" Height="385" Width="625" WindowStartupLocation="Manual" WindowState="Normal" SizeToContent="Manual" ShowInTaskbar="False" ResizeMode="NoResize" HorizontalAlignment="Left" VerticalAlignment="Stretch" WindowStyle="ThreeDBorderWindow">
     <Grid>
-        <Menu>
+        <Menu x:Name="GridMenuPrincipal">
             <MenuItem Header="Registros" Click="MenuItem_Click">
+                <MenuItem Header="Personas">
+                </MenuItem>
+                
+            </MenuItem>
+            <MenuItem Header="Inscripciones" Click= "MenuItem_Click_2">
                 <MenuItem Header="Personas"/>
             </MenuItem>
             <MenuItem Header="Consultas" Click="MenuItem_Click_1">
